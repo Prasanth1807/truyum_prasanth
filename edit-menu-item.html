@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <title>Menu Item Title Admin</title>
+</head>
+    <header>
+        truyum<img src="images/image.png">
+        <a class="a2" href="menu-item-list-admin.html">Menu</a>
+    </header>
+    <div>
+    <body>
+        <form class="editmenu">
+            <p id="pedit" style="font-size: 35px">Edit Menu Item</p>
+            <label><b>Name</b></label><br>
+            <input type="text" name="title" size="95"  value=""required><br>
+            <table>
+                <tr>
+                    <td id="menu">price(Rs.)</td>
+                    <td id="menu">Active</td>
+                    <td id="menu">Date of Launch</td>
+                    <td id="menu">Category</td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="price" value=""></td>
+                    <td><input type="radio" name="check" checked>Yes
+                        <input type="radio" name="check">No</td>
+                    <td><input type="text" name="dateofLaunch" value=""></td>
+                    <td><select name="Category">
+                        <option value="Starters">Starters</option>
+                        <option value="Main Course">Main Course</option>
+                        <option value="Dessert">Dessert</option>
+                        <option value="Drinks">Drinks</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" checked>Free Delivery</td>
+                </tr>
+            </table>
+                <button type="submit" value="submit" onclick="Document.location='edit-menu-item-status.html'" class="button" >Save</button>
+        </form>
+    </body>
+    </div>    
+    <footer>
+        <p>Copyrights &copy; 2019</p>
+    </footer>
+        
+</html>
+        
